@@ -1,4 +1,4 @@
-# InSpec Profile for testing attributes
+# InSpec Profile for testing attributes with audit cookbook
 
 This is a simple profile that allows for testing attributes in an inspec run. You define the `file` attribute and InSpec will test that the file exists.
 
