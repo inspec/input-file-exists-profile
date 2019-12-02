@@ -1,7 +1,7 @@
-# InSpec Profile for testing attributes with audit cookbook
+# InSpec Profile for testing inputs with audit cookbook
 
-This is a simple profile that allows for testing attributes in an inspec run. You define the `file` attribute and InSpec will test that the file exists.
+This is a simple profile that allows for testing inputs in an inspec run. You define the `test_file_path` input and InSpec will test that the file exists.
 
-## Attributes
+## Inputs
 
-`file`: the file that the profile will check for existence
+`test_file_path`: the file that the profile will check for existence

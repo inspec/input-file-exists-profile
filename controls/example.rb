@@ -3,7 +3,7 @@
 
 title 'Ensure that the file exists'
 
-test_file = attribute('file', default: '/default/will/never/exist/thats/the.point', description: 'the file that should exist by this inspec test')
+test_file = input('test_file_path', value: '/default/will/never/exist/thats/the.point', description: 'the file that should exist by this inspec test')
 
 control 'test-1.0-file-exists' do
   impact 1.0

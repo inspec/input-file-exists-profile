@@ -1,8 +1,8 @@
-name: attribute-file-exists-profile
-title: File Exists (via attribute)
-maintainer: Michael Hedgpeth
+name: input-file-exists-profile
+title: File Exists (via input)
+maintainer: InSpec Team
 copyright: Michael Hedgpeth
 copyright_email: mhedgpeth@gmail.com
 license: Apache-2.0
-summary: for testing inspec attributes work properly
-version: 0.1.0
+summary: for testing inspec inputs work properly
+version: 1.0.0
